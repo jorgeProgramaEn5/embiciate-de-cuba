@@ -36,7 +36,7 @@ const Hero = () => (
       </p>
     </div>
     <div>
-      <img src={robot} alt="robot" className='w-[100%] h-[100%] relative z-[5]' />
+      <img src={robot} alt="robot" className='w-[100%] h-[100%] relative z-[6]' />
     </div>
   </section>
 )
