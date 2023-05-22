@@ -24,6 +24,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import robot_bici from "./robot_bici.png";
+import logo_bici from "./logo_bici.png";
 
 
 export {
@@ -53,4 +54,5 @@ export {
   people02,
   people03,
   robot_bici,
+  logo_bici,
 };

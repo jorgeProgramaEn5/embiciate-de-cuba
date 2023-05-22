@@ -1,6 +1,7 @@
 import React from 'react';
 import { features } from '../constants';
 import style, { layout } from '../style';
+import Buttons from './Buttons';
 
 
 
@@ -16,6 +17,8 @@ const Business = () => {
           blanditiis nihil error eum! Laboriosam, delectus. Dolorem delectus at suscipit 
           distinctio natus. Qui tempora voluptas eligendi aliquid iste sint dolor!
         </p>
+
+        <Buttons styles='mt-10' />
       </div>
     </section>
   )
