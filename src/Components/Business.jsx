@@ -9,7 +9,15 @@ const FeatureCard = ({ icon, title, content, index }) => {
       ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}
     >
       <div className={`w-[64px] h-[64px] rounded-full bg-dimBlue ${style.flexCenter}`}>
-        <img src={icon} alt="icon"className='w-[50%] h-[50%] object-containt'/>
+        <img src={icon} alt="icon" className='w-[50%] h-[50%] object-containt'/>
+      </div>
+      <div className='flex-1 flex-col ml-3'>
+        <h4 className='font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1'>
+          {title}
+        </h4>
+        <p className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
+          {content}
+        </p>
       </div>
     </div>
   )
